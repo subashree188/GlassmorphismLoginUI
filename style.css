@@ -1,0 +1,81 @@
+body {
+  background-image: url("bg6.jpg");
+  background-size: contain; 
+  font-family: 'Comfortaa', cursive;
+}
+
+form {  
+  width: 15%;
+  padding: 3em;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin: auto;
+  margin-top: 10%;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(2px);
+  box-shadow: 20px 20px 40px -8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-size: medium;
+}
+
+form h3 {
+  font-weight: 500;
+  text-align: center;
+  color: #fff;
+  opacity: 0.9;
+  font-size: 1.6rem;
+  margin-top: 0;
+  margin-bottom: 60px;
+  text-shadow: 2px rgba(0, 0, 0, 0.5);
+}
+
+form a {
+  text-decoration: none;
+  color: #ddd;
+  font-size: 12px;
+}
+
+form input {
+  background: transparent;
+  width: 100%;
+  padding: 7%;
+  margin-bottom: 2em;
+  border: none;
+  border-radius: 8px;
+  backdrop-filter: blur(8px);
+  color: #fff;
+}
+
+form input:hover {
+  background: rgba(255, 255, 255, 0.1);  
+}
+
+form input[type="email"]:focus, form input[type="password"]:focus {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+form input[type="button"] {
+  margin-top: 10%;  
+  font-size: medium;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  border-radius: 5px;
+  width: 60%;
+}
+
+form input[type="button"]:active {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+form input[type="button"]:hover {
+  cursor: pointer;
+}
+
+::placeholder {
+  font-weight: 400;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
