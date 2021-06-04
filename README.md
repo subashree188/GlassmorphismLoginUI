@@ -1,3 +1,4 @@
-# GlassmorphismLoginUI
-UI designed for login page 
-![login](login.png)
+# Glassmorphism Login UI
+UI designed for login page<br><br> 
+![login1](login.png)
+![login2](login2.png)
